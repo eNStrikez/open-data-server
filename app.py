@@ -1,9 +1,9 @@
-from flask import Flask, jsonify, request
+import pandas as pd
+from flask import Flask, request, render_template
 from flask_cors import CORS
 from rdflib import Graph, Namespace, Literal
 from rdflib.namespace import SDO, XSD
 from rdflib.plugins.sparql import prepareQuery
-import pandas as pd
 
 app = Flask(__name__)
 CORS(app)
@@ -12,7 +12,8 @@ ttl_root = "https://raw.githubusercontent.com/eNStrikez/open-data-1/main/rdf/"
 ttl_schema = "https://raw.githubusercontent.com/eNStrikez/open-data-1/main/rdf/schema.ttl"
 schema = Namespace('https://enstrikez.github.io/open-data-1/schema/')
 graphs = {}
-files = ["sample_size", "response_rates", "trading_status", "government_schemes_1", "government_schemes_2", "government_schemes_3"]
+files = ["sample_size", "response_rates", "trading_status", "government_schemes_1", "government_schemes_2",
+         "government_schemes_3"]
 
 survey_query = prepareQuery(
     """SELECT DISTINCT ?aname ?bname ?c
@@ -114,7 +115,10 @@ def get_series():
     else:
         dim2 = schema.hasScheme
 
-    rows = graphs[request.args.get('name')].query(aggregated_query, initBindings={'dim1': dim1, 'dim2': dim2, 'valType': Literal(request.args.get('val'), datatype=XSD.string)})
+    rows = graphs[request.args.get('name')].query(aggregated_query, initBindings={'dim1': dim1, 'dim2': dim2,
+                                                                                  'valType': Literal(
+                                                                                      request.args.get('val'),
+                                                                                      datatype=XSD.string)})
     series = []
     for row in rows:
         q = row[1]
@@ -125,6 +129,12 @@ def get_series():
             kvs.update({kv[0]: kv[1]})
         series.append([row[0], kvs])
     return pd.DataFrame(series, columns=['Name', 'Values']).to_json(orient="records")
+
+
+@app.route('/', methods=['GET'])
+def root():
+    return render_template('index.html')
+
 
 if __name__ == '__main__':
     app.run()
