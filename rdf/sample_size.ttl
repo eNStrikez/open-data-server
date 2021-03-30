@@ -1,0 +1,467 @@
+@prefix gov: <https://enstrikez.github.io/open-data-1/schema/> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/03d2a896d617e6fe6f231cd563770085> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Human%20Health%20And%20Social%20Work%20Activities> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 145.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/0a4ed8131e496c3f2690a7e461d00477> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Information%20And%20Communication> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 1216.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/0d44a04b1d3054239d2c435357594125> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Wholesale%20And%20Retail%20Trade%3B%20Repair%20Of%20Motor%20Vehicles%20And%20Motorcycles> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 2999.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/0e97f8d595015d8e6baf3d38817ae338> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Mining%20And%20Quarrying> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 13.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/105ff9bff7703e6d50549a316c7f52ec> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Manufacturing> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 1785.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/1af3c2d2ea6732ee13852850a3f525e9> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Manufacturing> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 1370.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/29f880ac8726546723e0be7b6476435a> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Wholesale%20And%20Retail%20Trade%3B%20Repair%20Of%20Motor%20Vehicles%20And%20Motorcycles> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 1819.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/2c986b7b5097033ee89c462c552e98ca> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Mining%20And%20Quarrying> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 28.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/30bcc995a20eb28cfea34270c1352527> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Transportation%20And%20Storage> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 863.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/31eb0f01883615f99b679663818732d6> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Real%20Estate%20Activities> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 200.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/45365a132f02c60e0a5d35f8c244a835> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/All%20Industries> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/0-99> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 1326.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/46b8f44bb0d0a58cb30fdf20d5051fb1> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Information%20And%20Communication> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 422.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/492d1f3578f8ad83515edc4c13d8171d> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Other%20Service%20Activities> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 29.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/4abef300d30d54681b8f4698ff93ecac> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Water%20Supply%2C%20Sewerage%2C%20Waste%20Management%20And%20Remediation%20Activities> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 71.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/5259c831987d3970631ab800cb12a1cb> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Human%20Health%20And%20Social%20Work%20Activities> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 294.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/5955ca70a9ef2fd22f3809a4fd2d4101> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Arts%2C%20Entertainment%20And%20Recreation> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 303.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/5aab900245efef324498015128a3d36a> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Professional%2C%20Scientific%20And%20Technical%20Activities> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 720.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/5bd310efe072f627b6526089ef49ee23> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Administrative%20And%20Support%20Service%20Activities> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 2359.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/60de9f2e5129c3b9c6208c88328fa9ae> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Mining%20And%20Quarrying> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 15.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/684310fdc7d1c337c7312c4698c4da66> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Arts%2C%20Entertainment%20And%20Recreation> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 718.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/6a89d1a84360461886c784c8159cc58b> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/All%20Industries> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/100-249> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 9116.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/6aad6096e410122159d8bbdde292c0c4> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Transportation%20And%20Storage> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 528.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/6c946dc090df3ab7c249ecd3986bda3e> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Accommodation%20And%20Food%20Service%20Activities> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 1634.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/775ec9cf2faefa625b9d5882a55a62ac> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Education> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 303.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/800ae94aa50a343587e93c2fb78cca48> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Administrative%20And%20Support%20Service%20Activities> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 1072.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/841e4cbc7bf5ed6f35a84c0d9b0f4f54> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/All%20Industries> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 17623.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/8443da9e823c643db323db4ef80021a2> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Real%20Estate%20Activities> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 112.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/8868f25b33d2526f892117361aca6476> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Accommodation%20And%20Food%20Service%20Activities> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 659.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/8ebf275e2d03b19623eafb7043b84eb7> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Education> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 760.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/9b4b6afd7a492015eedf1df710543a75> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Human%20Health%20And%20Social%20Work%20Activities> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 149.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/9eaa7f8f3559a7cb66741e4a3180139e> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Professional%2C%20Scientific%20And%20Technical%20Activities> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 2023.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/a5f40e28d2c402a01f3d18c72d3f0e82> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Water%20Supply%2C%20Sewerage%2C%20Waste%20Management%20And%20Remediation%20Activities> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 130.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/b0da91786f8bf435fb3d71dc38e126eb> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Wholesale%20And%20Retail%20Trade%3B%20Repair%20Of%20Motor%20Vehicles%20And%20Motorcycles> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 1180.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/bcf10e37cff1c0e67990a4b3e626c4f2> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Accommodation%20And%20Food%20Service%20Activities> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 975.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/be6b0baf902c157869e79ab5cc694c17> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Professional%2C%20Scientific%20And%20Technical%20Activities> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 1303.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/c1979a7bd22babcf97864b19df4294d4> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Arts%2C%20Entertainment%20And%20Recreation> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 415.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/c3ba034267380d7fc5eb84a93f0b9896> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Construction> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 1034.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/c533a31404bee299bb2cf328b70397db> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Construction> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 312.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/c5eb62656b92839279bfbf24e3fb9d7d> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/All%20Industries> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 7181.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/c96feb783fdd9df9f6f251fa4ebce59f> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Real%20Estate%20Activities> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 88.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/c9daa45aa41c9f38ba12fb81ef744152> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Other%20Service%20Activities> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 108.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/cbfc0137cc50be632ff8c03285c54c0a> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Water%20Supply%2C%20Sewerage%2C%20Waste%20Management%20And%20Remediation%20Activities> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 201.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/ce08fa024d79980e10aacd6c248249ca> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Transportation%20And%20Storage> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 335.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/d0ffe05fa2769c6025e727be1a11f6fc> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/All%20Industries> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 10442.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/e1350663e31a9155fee17c7530a51b5f> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Other%20Service%20Activities> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 137.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/e51a2c4066c8c742f4c9f8bac841dc45> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Manufacturing> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 3155.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/ecbc956e082b4a08f395d7ab5bfac34a> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Administrative%20And%20Support%20Service%20Activities> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 1287.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/f3895529a4d4a98750a5853052ecc468> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Information%20And%20Communication> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 794.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/f80d1e550333cc61dfd0149d695eee3f> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Education> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 457.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/fcf92afb62f741640d684f3b221ba15c> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Construction> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Total Number of Surveys Sent Out"^^xsd:string ;
+    sdo:description "Sample for the BICS survey"^^xsd:string ;
+    sdo:name "Sample Size"^^xsd:string ;
+    sdo:value 722.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Workforce/0-99> a gov:Workforce ;
+    sdo:name "0-99"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Workforce/100-249> a gov:Workforce ;
+    sdo:name "100-249"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Accommodation%20And%20Food%20Service%20Activities> a gov:Industry ;
+    sdo:name "Accommodation And Food Service Activities"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Administrative%20And%20Support%20Service%20Activities> a gov:Industry ;
+    sdo:name "Administrative And Support Service Activities"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Arts%2C%20Entertainment%20And%20Recreation> a gov:Industry ;
+    sdo:name "Arts, Entertainment And Recreation"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Construction> a gov:Industry ;
+    sdo:name "Construction"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Education> a gov:Industry ;
+    sdo:name "Education"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Human%20Health%20And%20Social%20Work%20Activities> a gov:Industry ;
+    sdo:name "Human Health And Social Work Activities"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Information%20And%20Communication> a gov:Industry ;
+    sdo:name "Information And Communication"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Manufacturing> a gov:Industry ;
+    sdo:name "Manufacturing"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Mining%20And%20Quarrying> a gov:Industry ;
+    sdo:name "Mining And Quarrying"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Other%20Service%20Activities> a gov:Industry ;
+    sdo:name "Other Service Activities"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Professional%2C%20Scientific%20And%20Technical%20Activities> a gov:Industry ;
+    sdo:name "Professional, Scientific And Technical Activities"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Real%20Estate%20Activities> a gov:Industry ;
+    sdo:name "Real Estate Activities"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Transportation%20And%20Storage> a gov:Industry ;
+    sdo:name "Transportation And Storage"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Water%20Supply%2C%20Sewerage%2C%20Waste%20Management%20And%20Remediation%20Activities> a gov:Industry ;
+    sdo:name "Water Supply, Sewerage, Waste Management And Remediation Activities"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Wholesale%20And%20Retail%20Trade%3B%20Repair%20Of%20Motor%20Vehicles%20And%20Motorcycles> a gov:Industry ;
+    sdo:name "Wholesale And Retail Trade; Repair Of Motor Vehicles And Motorcycles"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/All%20Industries> a gov:Industry ;
+    sdo:name "All Industries"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> a gov:Workforce ;
+    sdo:name "< 250"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> a gov:Workforce ;
+    sdo:name "250 +"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> a gov:Workforce ;
+    sdo:name "All Size Bands"^^xsd:string .
+

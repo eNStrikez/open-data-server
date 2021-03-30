@@ -1,0 +1,81 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://enstrikez.github.io/open-data-1/schema/Ontology> a owl:Ontology ;
+    rdfs:comment "The ontology of this data" ;
+    owl:imports "https://enstrikez.github.io/open-data-1/" .
+
+<https://enstrikez.github.io/open-data-1/schema/hasCountry> a owl:ObjectProperty ;
+    rdfs:label "The country surveyed" ;
+    rdfs:comment "The country of the business that provided the data in the survey" ;
+    rdfs:domain <https://enstrikez.github.io/open-data-1/schema/Survey> ;
+    rdfs:range <https://enstrikez.github.io/open-data-1/schema/Country> ;
+    rdfs:subPropertyOf dc:relation .
+
+<https://enstrikez.github.io/open-data-1/schema/hasIndustry> a owl:ObjectProperty ;
+    rdfs:label "The industry surveyed" ;
+    rdfs:comment "The industry that provided the data in the survey" ;
+    rdfs:domain <https://enstrikez.github.io/open-data-1/schema/Survey> ;
+    rdfs:range <https://enstrikez.github.io/open-data-1/schema/Industry> ;
+    rdfs:subPropertyOf dc:relation .
+
+<https://enstrikez.github.io/open-data-1/schema/hasScheme> a owl:ObjectProperty ;
+    rdfs:label "The governement schemes available to the business surveyed" ;
+    rdfs:comment "The government schemes that the business that provided the data in the survey was able to apply for, recieve or intended to apply for" ;
+    rdfs:domain <https://enstrikez.github.io/open-data-1/schema/Survey> ;
+    rdfs:range <https://enstrikez.github.io/open-data-1/schema/Scheme> ;
+    rdfs:subPropertyOf dc:relation .
+
+<https://enstrikez.github.io/open-data-1/schema/hasStatus> a owl:ObjectProperty ;
+    rdfs:label "The trading status of the business surveyed" ;
+    rdfs:comment "The current trading status of the business that provided the data in the survey" ;
+    rdfs:domain <https://enstrikez.github.io/open-data-1/schema/Survey> ;
+    rdfs:range <https://enstrikez.github.io/open-data-1/schema/Status> ;
+    rdfs:subPropertyOf dc:relation .
+
+<https://enstrikez.github.io/open-data-1/schema/hasWorkforce> a owl:ObjectProperty ;
+    rdfs:label "The workforce size surveyed" ;
+    rdfs:comment "The workforce size band of the business that provided the data in the survey" ;
+    rdfs:domain <https://enstrikez.github.io/open-data-1/schema/Survey> ;
+    rdfs:range <https://enstrikez.github.io/open-data-1/schema/Workforce> ;
+    rdfs:subPropertyOf dc:relation .
+
+<https://enstrikez.github.io/open-data-1/schema/valueType> a owl:DatatypeProperty ;
+    rdfs:label "The type of the value surveyed" ;
+    rdfs:comment "The property describing the type of data recorded in the survey" ;
+    rdfs:domain <https://enstrikez.github.io/open-data-1/schema/Survey> ;
+    rdfs:range xsd:string .
+
+<https://enstrikez.github.io/open-data-1/schema/Country> a owl:Class ;
+    rdfs:label "The country type" ;
+    rdfs:comment "The class representing the country of the business surveyed" ;
+    rdfs:subClassOf sdo:Thing .
+
+<https://enstrikez.github.io/open-data-1/schema/Industry> a owl:Class ;
+    rdfs:label "The industry type" ;
+    rdfs:comment "The class representing the industry of the business surveyed" ;
+    rdfs:subClassOf sdo:Thing .
+
+<https://enstrikez.github.io/open-data-1/schema/Scheme> a owl:Class ;
+    rdfs:label "The government scheme type" ;
+    rdfs:comment "The class representing the governement scheme that businesses could apply for, recieve or intend to apply for" ;
+    rdfs:subClassOf sdo:Thing .
+
+<https://enstrikez.github.io/open-data-1/schema/Status> a owl:Class ;
+    rdfs:label "The trading status type" ;
+    rdfs:comment "The class representing the current trading status of the businesses surveyed" ;
+    rdfs:subClassOf sdo:Thing .
+
+<https://enstrikez.github.io/open-data-1/schema/Workforce> a owl:Class ;
+    rdfs:label "The workforce size type" ;
+    rdfs:comment "The class representing the workforce size band of the business surveyed" ;
+    rdfs:subClassOf sdo:Thing .
+
+<https://enstrikez.github.io/open-data-1/schema/Survey> a owl:Class ;
+    rdfs:label "The survey type" ;
+    rdfs:comment "The class that contains data about a survey result and the businesses related to it" ;
+    rdfs:subClassOf sdo:Thing .
+
